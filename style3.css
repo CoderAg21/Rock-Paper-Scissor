@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-image: url('backImg.png');
+}
+
+.heading {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 20px;
+
+}
+
+
+.info {
+    margin: auto;
+    border: 2px solid gray;
+    background-color: blueviolet;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.2rem;
+    margin-top: 40px;
+    color: aliceblue;
+    text-decoration: none;
+
+}
+
+.details {
+    display: flex;
+}
+
+.gameImg:hover {
+    outline: 4px solid palevioletred;
+    outline-offset: 4px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition-property: transform;
+    transition-duration: .1s;
+    transition-delay: 0s;
+    transition-timing-function: linear;
+    /* animation: gameAni .3s linear 0s 1 forwards ; */
+}
+
+.gameImg:focus-visible {
+    background-color: red;
+}
+
+
+
+.content {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.gameImg {
+    transform: rotate(270deg);
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+    margin: 40px 4vw 40px 4vw;
+}
+
+
+/* @keyframes gameAni {
+    0%{}
+    50%{transform: scale(.5) rotate(-90deg);}
+    100%{transform: scale((1));}
+    
+} */
+
+
+.scoreDetails {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vw;
+
+}
+
+.score {
+    background-color: aquamarine;
+    padding: 10px;
+}
