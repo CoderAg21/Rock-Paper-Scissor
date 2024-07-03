@@ -7,10 +7,11 @@ body{
 
     background-image: url(backImg.png);
     background-size: 100vw 100vh;
+    background-repeat:no-repeat;
 }
 .centerized{
     position: relative;
-    top: 20vh;
+    top: 16vh;
 }
 
 .heading {
