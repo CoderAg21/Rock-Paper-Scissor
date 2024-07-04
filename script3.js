@@ -82,3 +82,7 @@ img2.addEventListener("click", function () {
 img3.addEventListener("click", function () {
     gameRun(img3)
 })
+
+window.addEventListener("load", (event) => {
+  (new Audio("music.mp3")).play();
+});
